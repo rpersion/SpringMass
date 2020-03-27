@@ -1,6 +1,21 @@
 # SpringMass
 Python Spring Mass Physics Engine
 
+
+def Distance(self, mass1, mass2): #internal function for calculating distance between two Mass objects
+
+def ConnectTo(self, mass2, k=1.0, MaxLengthFactor=2.0): #connect this mass to another one
+
+def CollideWith(self, mass2, k=1.0): #turn on collision detection between this mass and another
+
+def Move(self, dt=0.1,gravity=0.0): #translate the mass based forces applied to it with Forces() and Collide()
+
+def Forces(self): #calculate forces on the current mass based on its connections to other masses
+
+def Collide(self): #calculate forces on the current mass based on its collision with other masses
+
+
+
 Create masses and connect them together. You can connect them with a collider object or a spring object.
 
 When you have finished connecting all of your mass objects, you will need to create a main program loop
