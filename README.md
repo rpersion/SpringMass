@@ -14,7 +14,7 @@ def Forces(self): #calculate forces on the current mass based on its connections
 
 def Collide(self): #calculate forces on the current mass based on its collision with other masses
 
-Fixed = False #is true then the mass object does not move
+Fixed = False #if true then the mass object does not move
 
 x = 0.0 #x coordinate of mass in meters
 
