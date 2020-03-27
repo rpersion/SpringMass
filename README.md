@@ -8,7 +8,7 @@ def ConnectTo(self, mass2, k=1.0, MaxLengthFactor=2.0): #connect this mass to an
 
 def CollideWith(self, mass2, k=1.0): #turn on collision detection between this mass and another
 
-def Move(self, dt=0.1,gravity=0.0): #translate the mass based forces applied to it with Forces() and Collide()
+def Move(self, dt=0.1,gravity=0.0): #translate the mass based on forces applied to it with Forces() and Collide()
 
 def Forces(self): #calculate forces on the current mass based on its connections to other masses
 
